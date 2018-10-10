@@ -71,6 +71,7 @@ The [Prometheus Operator](https://github.com/coreos/prometheus-operator/) makes 
 kubectl apply -f https://raw.githubusercontent.com/kubernetes/kops/master/addons/prometheus-operator/v0.19.0.yaml
 ```
 
+
 ### Route53 Mapper
 
 Please note that kops installs a Route53 DNS controller automatically (it is required for cluster discovery).
